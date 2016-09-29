@@ -1,9 +1,9 @@
-#include <iostream.h>
-
+#include <iostream>
+#include <cstdlib>
 
 int main()
 {
-    using namespace std;
-    cout<<"hello world"<<endl;
-    return 0; 
+    
+    std::cout<<"hello world \n";
+    return EXIT_SUCCESS; 
 }
